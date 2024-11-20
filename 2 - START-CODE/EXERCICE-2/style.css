@@ -1,0 +1,58 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  display: grid;
+  width:800px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  
+}
+
+.green{
+  background-color: rgb(28, 133, 92);
+  padding: 20px;
+  color:white;
+  font-weight: bold;
+}
+
+.grey{
+  background-color: #dde5e9;
+  padding: 20px;
+  color: black;
+}
+
+.white{
+  background-color: rgb(244, 250, 255);
+  padding: 20px;
+  color:black;
+}
+
+#Width{
+  font-weight: bold;
+}
+
+#Height{
+  font-weight: bold;
+}
+
+#Depth{
+  font-weight: bold;
+}
+
+#Weight{
+  font-weight: bold;
+}
+

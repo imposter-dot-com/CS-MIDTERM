@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    color: #cacaca;
+    font-size: 24px;
+    height: 100vh;
+    text-align: center;
+    font-weight: bold;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 80px 400px auto 250px;
+    grid-template-rows: 80px auto;
+  }
+
+  nav{
+    background-color: #343a40;
+    grid-row: span 2;
+    color: white;
+    
+  }
+  
+  main{
+    background-color: white;
+    color: black
+  }
+  
+  menu{
+    background-color: #7048e8;
+    grid-column: 2/5;
+    color: black;
+  }
+  
+  aside{
+    background-color: #e9ecef;
+    color: black;
+  }
+  
+  section{
+    background-color: #e9ecef;
+    color: black;
+  }
+  
+ 
